@@ -83,7 +83,7 @@ bool is_threshold( const TT& tt, std::vector<int64_t>* plf = nullptr )
 
   int variables = tt.num_vars();  //number of variables
   TT new_truth_table = tt;
-  int variables_unateness[variables];
+  int variables_unateness[15];
 
   //std::cout << "num vars is" << variables << std::endl;
   
